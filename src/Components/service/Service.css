@@ -1,0 +1,103 @@
+.service {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Ensure the home page content stays within the stacking context */
+  z-index: 1;
+  background-color: white; /* Set z-index to ensure it's behind the navbar */
+}
+
+.left h4 {
+  color: var(--blue);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.left h6 {
+  font-size: 2rem;
+  line-height: 45px;
+}
+
+.left p {
+  font-size: 1.3rem;
+  line-height: 40px;
+}
+
+.lg {
+  border: 1px solid var(--blue);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+
+.app-dev {
+  background-color: #0400ff4c;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.app-dev img {
+  width: 50px;
+}
+
+.web-dev {
+  background-color: #c489ff82;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.web-dev img {
+  width: 50px;
+}
+
+.uiux {
+  background-color: #ffd5005d;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.uiux img {
+  width: 50px;
+}
+
+.business {
+  background-color: #ff7e7e6c;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.business img {
+  width: 50px;
+}
+
+.right h5 {
+  margin: 20px 0;
+}
