@@ -7,7 +7,7 @@ export const Home = () => {
     <>
       <div className="home" id="home">
         <div className="container">
-          <div className="row mt-5">
+          <div className="row mt-2">
             <div className="col-12 col-lg-7 d-flex flex-column justify-content-center align-items-center">
               <p className="p-4 p-lg-0">
                 We're your digital architects-building stunning websites,
