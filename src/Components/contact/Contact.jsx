@@ -22,28 +22,28 @@ export const Contact = () => {
                 <div>
                   <h5>CONTACT US</h5>
                 </div>
-                <div className="my-5 d-flex justify-content-center align-items-center con-us-logos">
+                <div className="my-5 d-flex justify-content-center align-items-center con-icon">
                   <div>
                     <a
                       href="https://www.linkedin.com/company/inpro-software-solutions/"
                       target="blank"
                     >
-                      <Icon icon="devicon:linkedin" />
+                      <Icon icon="devicon:linkedin" className="iconify" />
                     </a>
                   </div>
                   <div>
-                    <a href="tel:+91 80155 31830">
-                      <Icon icon="logos:whatsapp-icon" />
+                    <a href="https://wa.me/8015531830" target="blank">
+                      <Icon icon="logos:whatsapp-icon" lassName="iconify" />
                     </a>
                   </div>
                   <div>
                     <a href="mailto:solution.inpro@gmail.com">
-                      <Icon icon="ic:outline-mail" />
+                      <Icon icon="ic:outline-mail" lassName="iconify" />
                     </a>
                   </div>
                   <div>
                     <a href="tel:+91 80155 31830">
-                      <Icon icon="fluent:call-28-regular" />
+                      <Icon icon="fluent:call-28-regular" lassName="iconify" />
                     </a>
                   </div>
                 </div>

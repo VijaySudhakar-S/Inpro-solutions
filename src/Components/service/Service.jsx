@@ -1,11 +1,15 @@
 import React from "react";
 import "./Service.css";
 import app from "./app.png";
+import web from "./web.png";
+import ui from "./ui.png";
+import bs from "./bs.png";
+import { Link } from "react-router-dom";
 
 export const Service = () => {
   return (
     <>
-      <div className="service mt-5" >
+      <div className="service mt-5">
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-5 d-flex flex-column justify-content-center p-4 p-lg-0 left">
@@ -19,9 +23,9 @@ export const Service = () => {
                 help your business thrive.
               </p>
               <div className="btn mt-lg-5 d-flex justify-content-end">
-                <button className="contact-us">
-                  <a href="tel:+91 80155 31830">CONTACT US </a>
-                </button>
+                <Link to="/contact">
+                  <button className="contact-us">CONTACT US</button>
+                </Link>
               </div>
             </div>
             <div className="col-12 col-lg-7 right d-flex flex-column justify-content-center align-items-center  p-5">
@@ -41,7 +45,7 @@ export const Service = () => {
                 <div className="col-lg-6 p-4 p-lg-4">
                   <div className="web-dev p-5">
                     <div className="lg">
-                      <img src={app} alt="" />
+                      <img src={web} alt="" />
                     </div>
                     <h5 className="my-lg-4">Web Development</h5>
                     <p>
@@ -54,7 +58,7 @@ export const Service = () => {
                 <div className="col-lg-6 p-4 p-lg-4">
                   <div className="uiux p-4">
                     <div className="lg">
-                      <img src={app} alt="" />
+                      <img src={ui} alt="" />
                     </div>
                     <h5 className="my-lg-4">UI UX DESIGNS</h5>
                     <p>
@@ -66,7 +70,7 @@ export const Service = () => {
                 <div className="col-lg-6 p-4   p-lg-4">
                   <div className="business p-4">
                     <div className="lg">
-                      <img src={app} alt="" />
+                      <img src={bs} alt="" />
                     </div>
                     <h5 className="my-lg-4">Business Strategy</h5>
                     <p id="products">

@@ -90,3 +90,21 @@
   border: 2px solid var(--blue);
   color: var(--blue);
 }
+
+.close-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-weight: 500;
+  border: 1px solid transparent;
+  transition: .2s;
+}
+
+.close-btn:hover {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}

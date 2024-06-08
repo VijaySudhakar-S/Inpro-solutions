@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,10 +13,12 @@ const Header = () => {
   return (
     <div className="nav-container px-4 px-lg-5">
       <div>
-        <img src={logo} alt="Logo" className="logo" />
+        <Link to="/">
+          <img src={logo} alt="Logo" className="logo" />
+        </Link>
       </div>
 
-      <div className=" d-none d-lg-inline">
+      <div className="d-none d-lg-inline">
         <div className="d-flex list-items">
           <div>
             <a href="#home">Home</a>
@@ -30,9 +33,9 @@ const Header = () => {
             <a href="#products">Products</a>
           </div>
           <div>
-            <a href="#products">
+            <Link to="/contact">
               <button>Get in Touch</button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -42,21 +45,34 @@ const Header = () => {
           ☰
         </button>
         <div className={`navbar ${isOpen ? "open" : ""}`}>
+          <button className="close-btn" onClick={toggleNavbar}>
+            X
+          </button>
           <div className="list">
             <div>
-              <a href="#home">Home</a>
+              <a href="#home" onClick={toggleNavbar}>
+                Home
+              </a>
             </div>
             <div>
-              <a href="#services">Services</a>
+              <a href="#about" onClick={toggleNavbar}>
+                About
+              </a>
             </div>
             <div>
-              <a href="#services">Services</a>
+              <a href="#services" onClick={toggleNavbar}>
+                Services
+              </a>
             </div>
             <div>
-              <a href="#products">Products</a>
+              <a href="#products" onClick={toggleNavbar}>
+                Products
+              </a>
             </div>
             <div>
-              <button>Get in Touch</button>
+              <Link to="/contact">
+                <button>Get in Touch</button>
+              </Link>
             </div>
           </div>
         </div>

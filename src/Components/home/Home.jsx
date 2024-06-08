@@ -20,15 +20,13 @@ export const Home = () => {
                 </div>
               </a>
             </div>
-            <div
-              className="col-12 col-lg-5 img d-flex flex-column justify-content-center align-items-center mt-5 mt-lg-0"
-              id="about"
-            >
+            <div className="col-12 col-lg-5 img d-flex flex-column justify-content-center align-items-center mt-5 mt-lg-0">
               <img src={img} alt="" />
             </div>
           </div>
         </div>
       </div>
+      <div id="about"></div>
     </>
   );
 };

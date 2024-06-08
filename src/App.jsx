@@ -1,20 +1,17 @@
 import "./App.css";
-import { About } from "./Components/about/About";
-import { Contact } from "./Components/contact/Contact";
-import { Footer } from "./Components/footer/Footer";
-import Header from "./Components/header/Header";
-import { Home } from "./Components/home/Home";
-import { Service } from "./Components/service/Service";
+import { Index } from "./Index.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { GetInTouch } from "./Components/GetInTouch/GetInTouch";
 
 function App() {
   return (
     <>
-      <Header />
-      <Home />
-      <About />
-      <Service />
-      <Contact />
-      <Footer />
+      <Router basename="/Inpro-solutions">
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/contact" element={<GetInTouch />} />
+        </Routes>
+      </Router>
     </>
   );
 }
