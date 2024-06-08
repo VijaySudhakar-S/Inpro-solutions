@@ -14,7 +14,7 @@ export const Contact = () => {
                 Have a Project? <br /> Create Your Website Now
               </p>
               <div className="btn mt-lg-5">
-                <button>
+                <button className="m-auto">
                   <a href="tel:+91 80155 31830">MAKE AN APPOINMENT</a>
                 </button>
               </div>
@@ -32,7 +32,7 @@ export const Contact = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://wa.me/8015531830" target="blank">
+                    <a href="https://wa.me/+918015531830" target="blank">
                       <Icon icon="logos:whatsapp-icon" lassName="iconify" />
                     </a>
                   </div>
