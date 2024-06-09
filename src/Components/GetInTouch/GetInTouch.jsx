@@ -25,7 +25,7 @@ export const GetInTouch = () => {
                 </a>
               </div>
               <div>
-                <a href="https://wa.me/8015531830" target="blank">
+                <a href="https://wa.me/+918015531830" target="blank">
                   <Icon icon="logos:whatsapp-icon" />
                 </a>
               </div>
