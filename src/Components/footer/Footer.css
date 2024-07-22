@@ -29,6 +29,10 @@
   color: var(--blue);
 }
 
+.loc p{
+  display: flex;
+}
+
 iframe{
     margin-top: 20px;
     border-radius:10px ;

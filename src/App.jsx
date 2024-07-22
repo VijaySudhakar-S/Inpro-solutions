@@ -6,7 +6,7 @@ import { GetInTouch } from "./Components/GetInTouch/GetInTouch";
 function App() {
   return (
     <>
-      <Router basename="/Inpro-solutions">
+      <Router basename="/">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/contact" element={<GetInTouch />} />

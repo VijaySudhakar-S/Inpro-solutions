@@ -21,7 +21,7 @@ export const Home = () => {
               </a>
             </div>
             <div className="col-12 col-lg-5 img d-flex flex-column justify-content-center align-items-center mt-5 mt-lg-0">
-              <img src={img} alt="" />
+              <img src={img} alt="" className="homeimg" />
             </div>
           </div>
         </div>

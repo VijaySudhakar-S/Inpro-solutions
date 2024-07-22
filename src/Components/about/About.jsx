@@ -9,7 +9,7 @@ export const About = () => {
         <div className="container">
           <div className="row row d-flex flex-column-reverse flex-lg-row">
             <div className="col-12 col-lg-5 img d-flex flex-column justify-content-center align-items-center mt-5 mt-lg-0">
-              <img src={img} alt="" />
+              <img src={img} alt="" className="about-img" />
             </div>
             <div className="col-12 col-lg-7 d-flex flex-column justify-content-center p-4 p-lg-0">
               <h4>ABOUT US</h4>
@@ -25,7 +25,9 @@ export const About = () => {
                 className="btn mt-lg-5 d-flex justify-content-end"
                 id="services"
               >
-                <button>OUR PRODUCTS </button>
+                <a href="#services">
+                  <button>OUR PRODUCTS </button>
+                </a>
               </div>
             </div>
           </div>

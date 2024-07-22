@@ -4,9 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Ensure the home page content stays within the stacking context */
+  position: relative;
   z-index: 1;
-  background-color: white; /* Set z-index to ensure it's behind the navbar */
+  background-color: white;
 }
 
 .about h4 {
@@ -57,6 +57,12 @@
 
 .img img {
   width: 400px;
+}
+
+.about-img {
+  animation: translatexleft linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
 }
 
 @media only screen and (max-width: 600px) {

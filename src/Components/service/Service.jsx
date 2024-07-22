@@ -28,7 +28,7 @@ export const Service = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-12 col-lg-7 right d-flex flex-column justify-content-center align-items-center  p-5">
+            <div className="col-12 col-lg-7 ser-right d-flex flex-column justify-content-center align-items-center  p-5">
               <div className="row">
                 <div className="col-lg-6 p-4 p-lg-4">
                   <div className="app-dev p-4">

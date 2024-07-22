@@ -7,6 +7,9 @@
   position: relative;
   z-index: 1;
   background-color: white;
+  animation: fadeIn 1s forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
 }
 
 .home p {
@@ -55,6 +58,13 @@
 
 .img img {
   width: 400px;
+}
+
+.homeimg {
+  animation: home 1s forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+  transform: translateX(100px);
 }
 
 @media only screen and (max-width: 600px) {

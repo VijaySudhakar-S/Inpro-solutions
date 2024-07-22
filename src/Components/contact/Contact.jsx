@@ -13,10 +13,8 @@ export const Contact = () => {
               <p className="p-4 p-lg-0 text-center">
                 Have a Project? <br /> Create Your Website Now
               </p>
-              <div className="btn mt-lg-5">
-                <button className="m-auto">
+              <div className="btn make-appointment mt-lg-5">
                   <a href="tel:+91 80155 31830">MAKE AN APPOINMENT</a>
-                </button>
               </div>
               <div className="con-us my-5">
                 <div>
@@ -50,7 +48,7 @@ export const Contact = () => {
               </div>
             </div>
             <div className="col-12 col-lg-5 img d-flex flex-column justify-content-center align-items-center mt-5 mt-lg-0">
-              <img src={img} alt="" />
+              <img src={img} alt="" className="cont-img"/>
             </div>
           </div>
         </div>
